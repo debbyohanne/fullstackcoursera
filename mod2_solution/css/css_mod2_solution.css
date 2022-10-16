@@ -1,7 +1,8 @@
 body {
   background-color: white;
-  font-size: 80%;
+  font-size: 1em;
   font-family: "Comic Sans MS", "Comic Sans";
+  margin-left: 20px;
 }
 
 * {
@@ -10,10 +11,12 @@ body {
 
 h1 {
 	text-align: center;
+	font-size: 1.75em;
 }
 
 h2 {
 	text-align: center;
+	font-size: 1.25em;
 }
 
 p {	
@@ -21,46 +24,198 @@ p {
 	margin-right:15px;
 }
 
-#box {
-	background-color: grey;
-	border: 2px solid black;
-	padding: 0px;
-	margin: 20px;
-	float: left;
-	width: 30%;
+/* DESKTOP DEVICES */
+@media (min-width: 992px) {
+	#box1 {
+		background-color: grey;
+		border: 2px solid black;
+		padding: 0px;
+		margin-right: 3%;
+		float: left;
+		width: 30%;
+	}
 
-  }
+	#box2 {
+		background-color: grey;
+		border: 2px solid black;
+		padding: 0px;
+		margin-right: 3%;
+		float: left;
+		width: 30%;
+	}
 
-#title2_1 {
-	background-color: pink;
-	border-bottom: 2px solid black;
-	border-left: 2px solid black;
-	text-align: center;
-	margin-top: 0% ;
-	margin-bottom: 15px;
-	margin-left: 70%;
-	overflow: none ;
-	/*box-sizing: border-box;*/
+	#box3 {
+		background-color: grey;
+		border: 2px solid black;
+		padding: 0px;
+		margin-right: 3%;
+		float: left;
+		width: 30%;
+	}
+
+	#title2_1 {
+		background-color: pink;
+		border-bottom: 2px solid black;
+		border-left: 2px solid black;
+		text-align: center;
+		margin-top: 0% ;
+		margin-bottom: 15px;
+		margin-left: 70%;
+		/*box-sizing: border-box;*/
+	}
+
+	#title2_2 {
+		background-color: red;
+		border-bottom: 2px solid black;
+		border-left: 2px solid black;
+		text-align: center;
+		margin-top: 0% ;
+		margin-bottom: 15px;
+		margin-left: 70%;
+		/*box-sizing: border-box;*/
+	}
+
+	#title2_3 {
+		background-color: yellow;
+		border-bottom: 2px solid black;
+		border-left: 2px solid black;
+		text-align: center;
+		margin-top: 0% ;
+		margin-bottom: 15px;
+		margin-left: 70%;
+		/*box-sizing: border-box;*/
+	}
 }
 
-#title2_2 {
-	background-color: red;
-	border-bottom: 2px solid black;
-	border-left: 2px solid black;
-	text-align: center;
-	margin-top: 0% ;
-	margin-bottom: 15px;
-	margin-left: 80%;
-	/*box-sizing: border-box;*/
+/* TABLET DEVICES */
+@media (min-width: 768px) and (max-width: 991px) {
+	#box1 {
+		background-color: grey;
+		border: 2px solid black;
+		padding: 0px;
+		margin-right: 3%;
+		margin-bottom: 3%;
+		float: left;
+		width: 47%;
+	}
+
+	#box2 {
+		background-color: grey;
+		border: 2px solid black;
+		padding: 0px;
+		margin-right: 3%;
+		float: left;
+		width: 47%;
+	}
+
+	#box3 {
+		background-color: grey;
+		border: 2px solid black;
+		padding: 0px;
+		margin-right: 3%;
+		float: left;
+		display: block;
+	}
+
+
+	#title2_1 {
+		background-color: pink;
+		border-bottom: 2px solid black;
+		border-left: 2px solid black;
+		text-align: center;
+		margin-top: 0% ;
+		margin-bottom: 15px;
+		margin-left: 70%;
+		/*box-sizing: border-box;*/
+	}
+
+	#title2_2 {
+		background-color: red;
+		border-bottom: 2px solid black;
+		border-left: 2px solid black;
+		text-align: center;
+		margin-top: 0% ;
+		margin-bottom: 15px;
+		margin-left: 70%;
+		/*box-sizing: border-box;*/
+	}
+
+	#title2_3 {
+		background-color: yellow;
+		border-bottom: 2px solid black;
+		border-left: 2px solid black;
+		text-align: center;
+		margin-top: 0% ;
+		margin-bottom: 15px;
+		margin-left: 70%;
+		display: block;
+		/*box-sizing: border-box;*/
+	}
+
 }
 
-#title2_3 {
-	background-color: yellow;
-	border-bottom: 2px solid black;
-	border-left: 2px solid black;
-	text-align: center;
-	margin-top: 0% ;
-	margin-bottom: 15px;
-	margin-left: 80%;
-	/*box-sizing: border-box;*/
+/* MOBILE DEVICES */
+@media (max-width: 767px) {
+	#box1 {
+		background-color: grey;
+		border: 2px solid black;
+		padding: 0px;
+		margin-right: 3%;
+		margin-bottom: 3%;
+		float: left;
+		display: block;
+	}
+
+	#box2 {
+		background-color: grey;
+		border: 2px solid black;
+		padding: 0px;
+		margin-right: 3%;
+		margin-bottom: 3%;
+		float: left;
+		display: block;
+	}
+
+	#box3 {
+		background-color: grey;
+		border: 2px solid black;
+		padding: 0px;
+		margin-right: 3%;
+		float: left;
+		display: block;
+	}
+
+	#title2_1 {
+		background-color: pink;
+		border-bottom: 2px solid black;
+		border-left: 2px solid black;
+		text-align: center;
+		margin-top: 0% ;
+		margin-bottom: 15px;
+		margin-left: 70%;
+		/*box-sizing: border-box;*/
+	}
+
+	#title2_2 {
+		background-color: red;
+		border-bottom: 2px solid black;
+		border-left: 2px solid black;
+		text-align: center;
+		margin-top: 0% ;
+		margin-bottom: 15px;
+		margin-left: 70%;
+		/*box-sizing: border-box;*/
+	}
+
+	#title2_3 {
+		background-color: yellow;
+		border-bottom: 2px solid black;
+		border-left: 2px solid black;
+		text-align: center;
+		margin-top: 0% ;
+		margin-bottom: 15px;
+		margin-left: 70%;
+		/*box-sizing: border-box;*/
+	}
+	
 }
